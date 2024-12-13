@@ -97,6 +97,17 @@ section h2 {
     margin: 10px 0;
 }
 
+#projetos .projeto iframe {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    border: 1px solid #333;
+    border-radius: 5px;
+    margin: 10px 0;
+    aspect-ratio: 16 / 9; 
+    object-fit: cover; 
+}
+
 #projetos .projeto p {
     line-height: 1.6;
     text-align: justify;
